@@ -7,7 +7,8 @@
 sudo apt update && sudo apt full-upgrade -y
 
 function install {
-  if ! command -v $1 &> /dev/null then
+  if ! command -v $1 &> /dev/null
+  then
     echo "Installing: ${1}..."
     sudo apt install -y $1
   else
