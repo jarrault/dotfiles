@@ -26,6 +26,7 @@ install nmap
 install openvpn
 install tree
 install httpie
+install virtualbox
 
 # Run all scripts in programs/
 for f in programs/*.sh; do bash "$f" -H; done
