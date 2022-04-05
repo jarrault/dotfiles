@@ -10,3 +10,12 @@ sudo apt install -y apt-transport-https
 sudo apt update
 sudo apt install -y code
 rm microsoft.gpg
+
+function install {
+  name="${1}"
+  code --install-extension ${name} --force
+}
+
+install ms-python.python
+install PKief.material-icon-theme
+install GitHub.github-vscode-theme
