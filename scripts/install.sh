@@ -37,6 +37,9 @@ install duf
 # Run all scripts in programs/
 for f in programs/*.sh; do bash "$f" -H; done
 
+# Run all scripts in tools/
+for f in tools/*.sh; do bash "$f" -H; done
+
 # Set fish as default shell
 chsh -s $(which fish)
 
