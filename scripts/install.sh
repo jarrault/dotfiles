@@ -28,10 +28,14 @@ install htop
 install nmap
 install openvpn
 install tree
-install httpie
 install virtualbox
+
+# Terminal
 install terminator
 install fish
+
+# Utils
+install httpie
 install duf
 
 # Run all scripts in programs/
