@@ -29,6 +29,7 @@ install nmap
 install openvpn
 install tree
 install virtualbox
+install python3-pip
 
 # Terminal
 install terminator
@@ -37,12 +38,13 @@ install fish
 # Utils
 install httpie
 install duf
+install fd-find
+
+# Tools
+install apktool
 
 # Run all scripts in programs/
 for f in programs/*.sh; do bash "$f" -H; done
-
-# Run all scripts in tools/
-for f in tools/*.sh; do bash "$f" -H; done
 
 # Set fish as default shell
 chsh -s $(which fish)
