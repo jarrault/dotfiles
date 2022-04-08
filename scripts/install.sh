@@ -49,6 +49,9 @@ for f in programs/*.sh; do bash "$f" -H; done
 # Set fish as default shell
 chsh -s $(which fish)
 
+# Install fish plugins
+./ohmyfish.sh
+
 # Get all upgrades
 sudo apt upgrade -y
 sudo apt autoremove -y
