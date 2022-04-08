@@ -30,6 +30,7 @@ install openvpn
 install tree
 install virtualbox
 install python3-pip
+install net-tools
 
 # Terminal
 install terminator
